@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/clinux01/Escritorio/eci35_hetprog-main/lab2/pi_taylor_serial.cc
+iomanip
+-
+iostream
+-
+limits
+-
+

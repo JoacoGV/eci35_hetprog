@@ -1,0 +1,6 @@
+# Hashes of file build rules.
+e5ab0dd9b5593dbdb2f53bd564e45075 lab4/CMakeFiles/fpga
+e5ab0dd9b5593dbdb2f53bd564e45075 lab4/CMakeFiles/fpga_emu
+e5ab0dd9b5593dbdb2f53bd564e45075 lab4/CMakeFiles/report
+8be6da55632682ba10d266f673455e0e lab4/CMakeFiles/run
+aadc7f4943ebc680e488c87febb03e04 lab4/add_array_pipes_sycl_report.a

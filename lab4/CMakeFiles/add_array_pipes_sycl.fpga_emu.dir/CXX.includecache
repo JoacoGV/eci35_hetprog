@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/clinux01/Escritorio/eci35_hetprog-main/lab4/add_array_pipes_sycl.cc
+iostream
+-
+random
+-
+vector
+-
+CL/sycl.hpp
+-
+sycl/ext/intel/fpga_extensions.hpp
+-
+sycl/ext/intel/fpga_extensions.hpp
+-
+

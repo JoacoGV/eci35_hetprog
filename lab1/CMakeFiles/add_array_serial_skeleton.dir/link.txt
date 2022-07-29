@@ -1,0 +1,1 @@
+/media/libre/oneapi/compiler/2022.1.0/linux/bin/dpcpp    -rdynamic CMakeFiles/add_array_serial_skeleton.dir/add_array_serial_skeleton.cc.o  -o ../add_array_serial_skeleton 

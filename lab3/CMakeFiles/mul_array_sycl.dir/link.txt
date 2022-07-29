@@ -1,0 +1,1 @@
+/media/libre/oneapi/compiler/2022.1.0/linux/bin/dpcpp    -rdynamic CMakeFiles/mul_array_sycl.dir/mul_array_sycl.cc.o  -o ../mul_array_sycl 

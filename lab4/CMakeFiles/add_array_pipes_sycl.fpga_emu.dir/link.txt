@@ -1,0 +1,1 @@
+/media/libre/oneapi/compiler/2022.1.0/linux/bin/dpcpp    -rdynamic -fintelfpga  CMakeFiles/add_array_pipes_sycl.fpga_emu.dir/add_array_pipes_sycl.cc.o  -o ../add_array_pipes_sycl.fpga_emu 

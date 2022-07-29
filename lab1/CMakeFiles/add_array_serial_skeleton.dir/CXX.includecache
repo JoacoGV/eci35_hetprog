@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/clinux01/Escritorio/eci35_hetprog-main/lab1/add_array_serial_skeleton.cc
+iostream
+-
+random
+-
+vector
+-
+add_array.hh
+-
+
+lab1/add_array.hh
+

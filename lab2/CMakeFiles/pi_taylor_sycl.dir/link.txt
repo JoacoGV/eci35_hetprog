@@ -1,0 +1,1 @@
+/media/libre/oneapi/compiler/2022.1.0/linux/bin/dpcpp    -rdynamic CMakeFiles/pi_taylor_sycl.dir/pi_taylor_sycl.cc.o  -o ../pi_taylor_sycl 

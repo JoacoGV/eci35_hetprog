@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/clinux01/Escritorio/eci35_hetprog-main/lab3/mul_array_sycl.cc
+iostream
+-
+random
+-
+vector
+-
+CL/sycl.hpp
+-
+
