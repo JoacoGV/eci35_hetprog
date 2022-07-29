@@ -85,7 +85,7 @@ int main() {
         q.submit([&](handler &h){
             
             accessor b(bufB, h, read_only);
-
+    
             h.single_task<class read_b>([=](){
                 for(int i = 0; i < n; i++)
                 {
