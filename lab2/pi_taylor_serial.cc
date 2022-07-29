@@ -2,11 +2,20 @@
 #include <iostream>
 #include <limits>
 
-using my_float = float;
+using my_float = long double;
 
 auto pi_taylor(size_t steps) -> my_float {
 
     // please complete
+    my_float res = 0;
+    for(size_t i = 0; i < steps; i++)
+    {
+        if( i % 2 == 0)
+            res += (my_float)  1/(2*i +1);
+        else
+            res +=  (my_float) -1/(2*i + 1);
+    }
+    return res;
 
 }
 

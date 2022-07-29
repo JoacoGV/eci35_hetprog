@@ -26,10 +26,23 @@ int main() {
 
   // initialize the array
   // ...
+	for(int i = 0; i < n; i++)
+	{
+		A.push_back( (float) i / 1000);
+		B.push_back( (float )i / 1000);
+	}
 
 	// add the two vectors
   // ...
+  for(int i = 0; i < A.size(); i++)
+  {
+	C.push_back(A[i] + B[i]);
+  }
 
   // print the first 8 elements
   // ...
+  for(int i = 0; i<8; i++)
+  {
+	printf("%f =  %f + %f \n", C[i], A[i], B[i]);
+  }
 }

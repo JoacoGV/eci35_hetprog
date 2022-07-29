@@ -48,9 +48,37 @@ main(int argc, const char *argv[])
         exit(1);
 
     }
+    
 
     // please complete
+    std::vector<my_float> elems(steps);
 
+    {
+        // add the two vectors
+        // ...
+        sycl::buffer bufElems{elems};
+
+        q.submit([&](sycl::handler &h)
+        {
+        auto elems = bufElems.get_access(h, sycl::write_only);
+
+        h.parallel_for(steps, [=](auto i ){
+            if( i % 2 == 0)
+                elems[i] =  (my_float) 1/(2*i +1);
+            else
+                elems[i] = (my_float) -1/(2*i + 1);
+            });
+        });
+    }
+
+    // print the first 8 elements
+    // ...
+    my_float pi = 0;
+    for(auto i = 0; i< steps; i++)
+    {
+        pi += elems[i];
+    }
+    pi = pi*4;
     std::cout << "For " << steps << " steps, pi value: "
         << std::setprecision(std::numeric_limits<long double>::digits10 + 1)
         << pi << std::endl;
